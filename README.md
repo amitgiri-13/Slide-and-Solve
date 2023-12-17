@@ -36,8 +36,8 @@ Swapping is allowed only in one vacant space available.
 
 2. Create a virtual environment:
     ```bash
-        python -m venv env
-        ```
+    python -m venv env
+    ```
 
 3. Clone the repository:
     ```bash
