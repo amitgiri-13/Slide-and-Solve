@@ -1,6 +1,6 @@
-# Eight Puzzle Game
+# Slide and Solve the Puzzle
 
-This is simple implementation of classic eight puzzle game using Python Tkinter library for GUI.
+Slide the numbered tiles into order and solve the classic eight-piece puzzle! This is simple implementation of classic eight puzzle game using Python Tkinter library for GUI.
 
 ## Table Of Contents
 - [Overview](#overview)
