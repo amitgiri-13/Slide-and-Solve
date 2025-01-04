@@ -13,6 +13,10 @@ Slide the numbered tiles into order and solve the classic eight-piece puzzle! Th
 ## Overview
 This puzzle game challenges players to arrange jumbled numbers into the correct order by sliding tiles into a single vacant space. The objective is to strategically plan moves to restore order, making it a fun and engaging test of logic and problem-solving skills.
 
+![image](https://github.com/user-attachments/assets/5b427145-a76c-4d53-8855-4ea7cc4911bb)
+![image](https://github.com/user-attachments/assets/5baedbc3-4dc2-40b6-9e43-e5dfc66fc6f8)
+
+
 ## Features
 - GUI built using Tkinter
 - Play function to start game
