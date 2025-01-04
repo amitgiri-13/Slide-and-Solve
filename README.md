@@ -7,13 +7,11 @@ Slide the numbered tiles into order and solve the classic eight-piece puzzle! Th
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
-This game allows a player to solve a puzzle of jumbled numbers into correct order.
-Swapping is allowed only in one vacant space available.
+This puzzle game challenges players to arrange jumbled numbers into the correct order by sliding tiles into a single vacant space. The objective is to strategically plan moves to restore order, making it a fun and engaging test of logic and problem-solving skills.
 
 ## Features
 - GUI built using Tkinter
@@ -43,14 +41,18 @@ Swapping is allowed only in one vacant space available.
     ```bash
     git clone <Repository-URL> 
     ```
-## Usage
-1. Open up terminal 
-2. Navigate to the directory where game files are located
-3. Activate the virtual environment: `source env/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Run the command: `cd EIGHT_PUZZLE-GAME`
-6. Run the command: `python main.py`
-7. The game window will appear so play!!
+4. Change the directory:
+    ```bash
+    cd Slide-and-Solve
+    ```
+5. Install the requirements:
+    ```bash
+    pip install -r requrirements.txt
+    ```
+6. Run the program:
+    ```bash
+    python main.py
+    ```
 
 ## Contributing
 Contributions are welcome!

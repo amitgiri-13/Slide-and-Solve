@@ -69,7 +69,7 @@ class PuzzleBox:
         for row in range(3):
             for column in range(3):
                 if unique_numbers[self.number] == 0:
-                    self.block = Button(self.puzzle_frame,text="",bg="lightblue",relief=SUNKEN,borderwidth=0)
+                    self.block = Button(self.puzzle_frame,text="",bg="lightblue",relief=RAISED,borderwidth=5)
                     self.block.bind("<Button-1>",self.select_button)
                     self.block.grid(row=row,column=column,padx=1,pady=1,ipadx=60,ipady=60)
                 else:
@@ -163,10 +163,11 @@ class PuzzleBox:
         pygame.mixer.music.load(file_path)
         pygame.mixer.music.play()
 
-#initializing root window
-root = Tk()
+if __name__ == "__main__":
+    #initializing root window
+    root = Tk()
 
-puzzle = PuzzleBox(root)
+    puzzle = PuzzleBox(root)
 
-#mainloop
-root.mainloop()
+    #mainloop
+    root.mainloop() 
